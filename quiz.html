@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Jogador de Futebol</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Qual Jogador de Futebol Você Seria?</h1>
+        <p>Responda às perguntas para descobrir com qual jogador famoso você mais se parece!</p>
+        
+        <div id="quiz">
+            <div class="question">
+                <h2>Pergunta 1: Qual é o seu estilo de jogo?</h2>
+                <label><input type="radio" name="BOSTA1" value="1"> Rápido e ofensivo</label>
+                <label><input type="radio" name="BOSTA1" value="2"> Estratégico e calculista</label>
+                <label><input type="radio" name="BOSTA1" value="3"> Criativo e imprevisível</label>
+            </div>
+            
+            <div class="question">
+                <h2>Pergunta 2: Qual é a sua posição favorita?</h2>
+                <label><input type="radio" name="BOSTA2" value="1"> Atacante</label>
+                <label><input type="radio" name="BOSTA2" value="2"> Meio-campo</label>
+                <label><input type="radio" name="BOSTA2" value="3"> Defesa</label>
+            </div>
+            
+            <div class="question">
+                <h2>Pergunta 3: Qual é o seu maior ponto forte?</h2>
+                <label><input type="radio" name="BOSTA3" value="1"> Velocidade</label>
+                <label><input type="radio" name="BOSTA3" value="2"> Controle de bola</label>
+                <label><input type="radio" name="BOSTA3" value="3"> Liderança</label>
+            </div>
+            
+            <button onclick="quiztaligado()">Descubra seu jogador!</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
